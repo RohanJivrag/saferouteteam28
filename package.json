@@ -1,0 +1,25 @@
+{
+  "name": "saferoute",
+  "version": "1.0.0",
+  "description": "SafeRoute Android Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": [
+    "capacitor",
+    "android",
+    "saferoute"
+  ],
+  "author": "SafeRoute Team",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.4.1",
+    "@capacitor/cli": "^8.4.1",
+    "@capacitor/core": "^8.4.1",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/splash-screen": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.2"
+  }
+}

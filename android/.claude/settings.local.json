@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx cap *)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(npm install *)",
+      "Bash(./gradlew assembleDebug --no-daemon)",
+      "Bash(grep -oE '[A-Za-z]{4,}')",
+      "Bash(xxd C:/saferoute/public/index.html)",
+      "Bash(grep -oP '.{0,50}SOS.{0,50}' C:/saferoute/index.html)",
+      "Bash(./gradlew clean *)",
+      "Bash(unzip -l app/build/outputs/apk/debug/app-debug.apk)",
+      "Bash(unzip -p app/build/outputs/apk/debug/app-debug.apk assets/public/js/sos.js)"
+    ]
+  }
+}

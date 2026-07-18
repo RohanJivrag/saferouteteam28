@@ -1,0 +1,30 @@
+{
+  "appId": "com.saferoute.app",
+  "appName": "SafeRoute",
+  "webDir": "public",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 1000,
+      "backgroundColor": "#020408",
+      "androidSplashResourceId": "splash",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false,
+      "spinnerColor": "#00f5d4"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "overlaysWebView": true,
+      "backgroundColor": "#020408"
+    }
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

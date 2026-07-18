@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npx cap *)",
+      "Bash(./gradlew.bat assembleDebug)",
+      "Bash(where javac *)",
+      "Bash(find /c -name \"javac.exe\" -type f)",
+      "Bash(curl -s https://services.gradle.org/distributions/)",
+      "Bash(git ls-tree *)",
+      "WebFetch(domain:github.com)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(unzip -l \"C:/saferoute/android/app/build/outputs/apk/debug/app-debug.apk\")",
+      "Bash(unzip -p \"C:/saferoute/android/app/build/outputs/apk/debug/app-debug.apk\" assets/public/index.html)",
+      "Bash(node --check \"C:/saferoute/public/js/search.js\")",
+      "Bash(node --check \"C:/saferoute/public/js/livemap.js\")",
+      "Bash(grep -oE 'class=\\\\\"[^\\\\\"]{1,100}\\\\\"' public/index.html)",
+      "Bash(./android/gradlew -p android assembleDebug)"
+    ]
+  }
+}

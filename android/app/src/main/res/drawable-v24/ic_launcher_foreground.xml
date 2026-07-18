@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportHeight="108"
+    android:viewportWidth="108">
+    <!-- SafeRoute shield icon in neon cyan -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Shield outline -->
+        <path
+            android:fillColor="#00f5d400"
+            android:fillType="evenOdd"
+            android:pathData="M54,24L30,34v20c0,18.33 10.28,35.41 24,40c13.72,-4.59 24,-21.67 24,-40v-20L54,24z"
+            android:strokeColor="#00f5d4"
+            android:strokeWidth="2.5" />
+        <!-- Inner glow -->
+        <path
+            android:fillColor="#00f5d420"
+            android:pathData="M54,28L34,36.5v17.5c0,15.28 8.57,29.51 20,33.33c11.43,-3.82 20,-18.05 20,-33.33v-17.5L54,28z" />
+        <!-- Check mark -->
+        <path
+            android:fillColor="#00f5d4"
+            android:pathData="M46,52l4,4l8,-8"
+            android:strokeColor="#00f5d4"
+            android:strokeWidth="3"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <!-- Location pin -->
+        <path
+            android:fillColor="#00f5d4"
+            android:pathData="M54,42c-4.42,0 -8,3.58 -8,8c0,5.5 8,14 8,14s8,-8.5 8,-14c0,-4.42 -3.58,-8 -8,-8zM54,52c-2.21,0 -4,1.79 -4,4s1.79,4 4,4s4,-1.79 4,-4s-1.79,-4 -4,-4z" />
+    </group>
+</vector>
